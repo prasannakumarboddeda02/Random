@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Random</string>
+    <string name="randomNumber">Random Number</string>
+    <string name="randomAlphabet">Random Alphabet</string>
+    <string name="custom">Custom</string>
+    <string name="add">Add:</string>
+    <string name="enter">Enter here</string>
+    <string name="number">Number</string>
+    <string name="max">Max:</string>
+    <string name="min">Min:</string>
+    <string name="get">Get</string>
+    <string name="list">List</string>
+    <string name="addBtn">add</string>
+    <string name="hintMin">Enter Min Value</string>
+    <string name="hintMax">Enter Max Value</string>
+    <string name="items">Items:</string>
+</resources>
