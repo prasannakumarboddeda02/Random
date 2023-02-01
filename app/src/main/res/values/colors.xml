@@ -8,5 +8,5 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="light_blue">#33E6FF</color>
-    <color name="stroke">#FF38630D</color>
+    <color name="stroke">#3333ff</color>
 </resources>

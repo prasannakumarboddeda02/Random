@@ -1,4 +1,4 @@
 package com.app.random
 
-class data {
-}
+
+data class Data(val item: String)
