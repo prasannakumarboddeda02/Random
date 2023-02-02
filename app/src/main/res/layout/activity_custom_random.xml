@@ -38,15 +38,20 @@
             android:textColorHint="@color/black"
             android:inputType="textShortMessage"
             android:autofillHints="@string/enter"
-            android:background="@drawable/bg_edit"/>
-        
+            android:background="@drawable/bg_edit"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"/>
+
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/addBtn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="@string/addBtn"
             android:textSize="20sp"
-            android:background="@drawable/bg_button"/>
+            android:background="@drawable/bg_button"
+            android:layout_marginLeft="10dp"
+            android:layout_marginStart="10dp" />
 
         
     </LinearLayout>

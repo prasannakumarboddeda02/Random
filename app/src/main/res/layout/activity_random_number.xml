@@ -27,7 +27,11 @@
             android:autofillHints="@string/hintMax"
             android:background="@drawable/bg_edit"
             android:textSize="20sp"
-            android:layout_marginBottom="10dp"/>
+            android:layout_marginBottom="10dp"
+            android:paddingStart="10dp"
+            android:paddingLeft="10dp"
+            android:paddingEnd="0dp"
+            android:paddingRight="0dp" />
 
 
         <EditText
@@ -40,7 +44,11 @@
             android:hint="@string/hintMax"
             android:background="@drawable/bg_edit"
             android:textColor="@color/black"
-            android:layout_marginBottom="20dp"/>
+            android:layout_marginBottom="20dp"
+            android:paddingLeft="10dp"
+            android:paddingStart="10dp"
+            android:paddingRight="0dp"
+            android:paddingEnd="0dp" />
 
 
     <androidx.appcompat.widget.AppCompatButton
