@@ -13,7 +13,8 @@
         android:textSize="35sp"
         android:textStyle="bold"
         android:textColor="@color/black"
-        android:gravity="center_horizontal"/>
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="20dp"/>
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -23,19 +24,21 @@
         android:layout_marginStart="20dp"
         android:layout_marginEnd="20dp"
         android:weightSum="2"
-        android:gravity="center">
+        android:gravity="center"
+        android:layout_marginBottom="10dp">
 
         
         <EditText
             android:id="@+id/editText"
             android:layout_width="300dp"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:hint="@string/enter"
             android:textSize="25sp"
             android:textColor="@color/black"
             android:textColorHint="@color/black"
             android:inputType="textShortMessage"
-            android:autofillHints="@string/enter"/>
+            android:autofillHints="@string/enter"
+            android:background="@drawable/bg_edit"/>
         
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/addBtn"
@@ -48,12 +51,6 @@
         
     </LinearLayout>
     
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:gravity="center">
-
 
         <androidx.appcompat.widget.AppCompatButton
             android:id="@+id/getBtn"
@@ -63,10 +60,10 @@
             android:textSize="20sp"
             android:layout_marginLeft="10dp"
             android:layout_marginStart="10dp"
-            android:background="@drawable/bg_button"/>
+            android:background="@drawable/bg_button"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"/>
 
-
-    </LinearLayout>
 
     <TextView
         android:id="@+id/show"
@@ -76,7 +73,8 @@
         android:textSize="25sp"
         android:textColor="@color/black"
         android:textStyle="bold"
-        android:gravity="center_horizontal" />
+        android:gravity="center_horizontal"
+        android:layout_marginBottom="10dp"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -90,7 +88,6 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:id="@+id/recyclerView"
-        android:padding="10dp"/>
+        android:id="@+id/recyclerView"/>
     
 </LinearLayout>

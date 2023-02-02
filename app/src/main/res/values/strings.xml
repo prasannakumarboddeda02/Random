@@ -11,7 +11,7 @@
     <string name="get">Get</string>
     <string name="list">List</string>
     <string name="addBtn">add</string>
-    <string name="hintMin">Enter Min Value</string>
-    <string name="hintMax">Enter Max Value</string>
+    <string name="hintMin">Min value</string>
+    <string name="hintMax">Max value</string>
     <string name="items">Items:</string>
 </resources>
