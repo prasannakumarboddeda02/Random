@@ -87,7 +87,11 @@
         android:text="@string/items"
         android:textSize="30sp"
         android:textStyle="bold"
-        android:textColor="@color/black"/>
+        android:textColor="@color/black"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="10dp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:layout_width="match_parent"

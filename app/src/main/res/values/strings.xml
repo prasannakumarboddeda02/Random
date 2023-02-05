@@ -13,5 +13,5 @@
     <string name="addBtn">add</string>
     <string name="hintMin">Min value</string>
     <string name="hintMax">Max value</string>
-    <string name="items">Items:</string>
+    <string name="items">ITEMS</string>
 </resources>

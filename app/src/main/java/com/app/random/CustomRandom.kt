@@ -29,7 +29,7 @@ class CustomRandom : AppCompatActivity() {
 
 
         binding.getBtn.setOnClickListener {
-            binding.show.text = list[(0 until list.size-1).random()].item
+            binding.show.text = list[(0 until list.size).random()].item
         }
 
     }
